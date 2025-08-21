@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>FitClub - Gym</title>
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container nav-inner">
+            <div class="logo"><span class="icon"></span>FitClub</div>
+            <nav class="nav-menu">
+                <a href="#hero-section" class="active">Home</a>
+                <a href="#about-section">About</a>
+                <a href="#features-section">Facilites</a>
+                <a href="#pricing-section">Pricing</a>
+                <div class="dropdown">
+                    <a href="#">Pages ▾</a>
+                    <div class="dropdown-menu">
+                        <a href="#">Trainers</a>
+                        <a href="#gallery-section">Gallery</a>
+                    </div>
+                </div>
+                
+                <a href="#contact-section">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero-section">
+        <div class="overlay"></div>
+        <div class="container hero-content">
+            <h1><span class="orange">FITCLUB</span><br>BUILD YOUR <br>BODY STRONG</h1>
+            <p>
+                Sed porttitor lectus nibh. Lorem ipsum dolor sit amet, adipiscing elit.
+                Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget sed, convallis at tellus.
+            </p>
+            <button>Join me</button>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="social-icons">
+            <a href="#">f</a>
+            <a href="#">t</a>
+            <a href="#">in</a>
+            <a href="#">▶</a>
+        </div>
+    </section>
+    <section class="about" id="about-section">
+        <div class="about-container">
+            <!-- Left side Images -->
+            <div class="about-images">
+                <div class="img-box img1">
+                    <img src="./assets/gym5.jpg" alt="Gym Image 1">
+                </div>
+                <div class="img-box img2">
+                    <img src="./assets/gym7.jpg" alt="Gym Image 2">
+                </div>
+            </div>
+
+            <!-- Right side Content -->
+            <div class="about-content" data-aos="fade-up">
+                <div class="icon-title">
+                    <i class="fa-solid fa-dumbbell"></i>
+                    <h2>ABOUT US</h2>
+                </div>
+                <h3>THE BEST GYM EVER IN THIS AREA</h3>
+                <p>
+                    Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit.
+                    Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.
+                    Curabitur aliquet quam id dui posuere blandit.
+                </p>
+                <p>
+                    Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur aliquet quam id dui posuere
+                    blandit.
+                    Donec sollicitudin molestie malesuada.
+                </p>
+                <a href="#" class="btn-outline">LEARN MORE</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features-section">
+        <div class="features-container" data-aos="fade-up">
+
+            <!-- Left Side Content -->
+            <div class="features-content">
+                <div class="icon-title">
+                    <i class="fa-solid fa-dumbbell"></i>
+                    <h2>FACILITES</h2>
+                </div>
+                <h3>WHY YOUR CHOOSE US ?</h3>
+                <p>
+                    Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+                    Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada.
+                </p>
+
+                <div class="features-grid">
+                    <div class="feature-box">
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <div>
+                            <h4>PRO EQUIPMENT</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-box">
+                        <i class="fa-solid fa-person-swimming"></i>
+                        <div>
+                            <h4>Swimming Pool</h4>
+                            <p>Nulla quis lorem ut libero malesuada feugiat.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-box">
+                        <i class="fa-solid fa-heartbeat"></i>
+                        <div>
+                            <h4>CARDIO FIRST</h4>
+                            <p>Curabitur aliquet jardu to the quam id dui posuere blandit.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-box">
+                        <i class="fa-regular fa-clock"></i>
+                        <div>
+                            <h4>FLEXIBLE TIME</h4>
+                            <p>Donec sollicitudin molestie to the gym malesuada.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side Image -->
+            <div class="features-image">
+                <!-- <img src="./assets/img2.png" alt="Gym Man"> -->
+            </div>
+
+        </div>
+    </section>
+
+    <!-- services -->
+    <section class="services" id ="services-section" data-aos="fade-up">
+        <h2><i class="fa-solid fa-dumbbell"></i> OUR SERVICES</h2>
+        <p>We aim to provide the best fitness & wellness programs for you.</p>
+
+        <div class="services-container">
+            <div class="service-card">
+                <img src="assets/5469424.jpg" alt="Service 1">
+                <div class="overlay">
+                    <h3>Body Building</h3>
+                    <p>Build strength with expert trainers and modern equipment.</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img src="assets/CYCLING.jpg" alt="Service 2">
+                <div class="overlay">
+                    <h3>Cycling</h3>
+                    <p>Boost stamina and burn calories in our cycling sessions.</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img src="assets/mediation.jpg" alt="Service 3">
+                <div class="overlay">
+                    <h3>Meditation</h3>
+                    <p>Relax and strengthen your mind with guided meditation.</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img src="assets/WEIGHT_LOSS.jpg" alt="Service 4">
+                <div class="overlay">
+                    <h3>Weight Loss</h3>
+                    <p>Personalized programs to achieve your weight goals.</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img src="assets/gal4.jpg" alt="Service 5">
+                <div class="overlay">
+                    <h3>Kick Boxing</h3>
+                    <p>High-energy classes to improve fitness and defense skills.</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img src="assets/YOGA.webp" alt="Service 6">
+                <div class="overlay">
+                    <h3>Yoga Training</h3>
+                    <p>Increase flexibility, balance, and inner peace.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing" data-aos="fade-up" id="pricing-section">
+        <h2>Our Pricing Plans</h2>
+        <p style="margin: 20px;">CHOOSE YOUR favorite PLAN</p>
+        <div class="pricing-container">
+            <div class="card">
+                <h3>Basic Plan</h3>
+                <p class="price">₹499</p>
+                <ul>
+                    <li>✔ 5 Projects</li>
+                    <li>✔ Email Support</li>
+                    <li>✔ 1 Month Access</li>
+                </ul>
+                <button class="btn" onclick="openModal('Basic Plan - ₹499')">Buy Now</button>
+            </div>
+            <div class="card">
+                <h3>Pro Plan</h3>
+                <p class="price">₹999</p>
+                <ul>
+                    <li>✔ 20 Projects</li>
+                    <li>✔ Priority Support</li>
+                    <li>✔ 3 Months Access</li>
+                </ul>
+                <button class="btn" onclick="openModal('Pro Plan - ₹999')">Buy Now</button>
+            </div>
+            <div class="card">
+                <h3>Premium Plan</h3>
+                <p class="price">₹1499</p>
+                <ul>
+                    <li>✔ Unlimited Projects</li>
+                    <li>✔ 24/7 Support</li>
+                    <li>✔ 1 Year Access</li>
+                </ul>
+                <button class="btn" onclick="openModal('Premium Plan - ₹1499')">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal" id="paymentModal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Payment Form</h2>
+            <p id="selectedPlan"></p>
+            <form>
+                <label>Name on Card</label>
+                <input type="text" required>
+
+                <label>Card Number</label>
+                <input type="text" maxlength="16" required>
+
+                <label>Expiry Date</label>
+                <input type="text" placeholder="MM/YY" required>
+
+                <label>CVV</label>
+                <input type="password" maxlength="3" required>
+
+                <button type="submit">Proceed to Pay</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- ===== Footer Section ===== -->
+    <footer class="footer" data-aos="fade-up">
+        <div class="footer-container" data-aos="fade-up">
+            <!-- Logo & Quick Links -->
+            <div class="footer-col">
+                <img src="assets/logo.png" alt="FitClub Logo" class="footer-logo">
+                <h3>QUICK LINKS</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Classes</a></li>
+                    <li><a href="#">Trainers</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Address -->
+            <div class="footer-col" id="contact-section">
+                <h3>ADDRESS</h3>
+                <ul class="contact-info">
+                    <li><i class="fas fa-phone-alt"></i> +91 123 456 7890</li>
+                    <li><i class="fas fa-envelope"></i> XYZ@fitclub.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Kolhapur</li>
+                </ul>
+            </div>
+
+            <!-- Gallery -->
+            <div class="footer-col" id="gallery-section">
+                <h3>GALLERY</h3>
+                <div class="gallery">
+                    <img src="assets/gal.jpg" alt="Gym">
+                    <img src="assets/gal1.jpg" alt="Gym">
+                    <img src="assets/gal2.jpg" alt="Gym">
+                    <img src="assets/gal3.jpg" alt="Gym">
+                    <img src="assets/gal4.jpg" alt="Gym">
+                    <img src="assets/gal5.jpg" alt="Gym">
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <div class="footer-bottom">
+        <p>Copyright © 2025 FitClub</p>
+    </div>
+    <script>
+        AOS.init({
+            duration: 1000, // speed ms madhe
+            offset: 120,    // scroll zala ki trigger
+            once: true      // ekdach animation play hoyil
+        });
+        window.addEventListener("scroll", function () {
+            let navbar = document.querySelector("nav");
+            if (window.scrollY > 50) {
+                navbar.style.background = "rgba(0,0,0,0.8)";
+            } else {
+                navbar.style.background = "transparent";
+            }
+        });
+        // Background Image Slideshow with Zoom Effect
+        const hero = document.querySelector(".hero");
+        const images = [
+            "url('./assets/5469424.jpg')",
+            "url('./assets/gym1.jpg')",
+            "url('./assets/1108004.jpg')",
+            "url('./assets/5469424.jpg')",
+        ];
+
+        let i = 0;
+        setInterval(() => {
+            hero.style.backgroundImage = images[i];
+            i = (i + 1) % images.length;
+        }, 4000); // every 4 seconds
+
+        function openModal(plan) {
+            document.getElementById("paymentModal").style.display = "flex";
+            document.getElementById("selectedPlan").innerText = "Selected Plan: " + plan;
+        }
+
+        function closeModal() {
+            document.getElementById("paymentModal").style.display = "none";
+        }
+
+        window.onclick = function (event) {
+            if (event.target == document.getElementById("paymentModal")) {
+                closeModal();
+            }
+        }
+
+    </script>
+</body>
+
+</html>
